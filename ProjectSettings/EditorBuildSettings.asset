@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CampaignA.unity
     guid: 0b00f031ea490be4593919e1b9b1a41e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 42dcba23583776d4ea1a1813a017b5e0
   m_configObjects: {}
