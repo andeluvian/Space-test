@@ -40,8 +40,9 @@ public class InteractionController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                interact.Activate();
-                
+               if(interact.gameObject.tag == "InteractiveObject")interact.Activate();
+               if(interact.gameObject.tag == "Clue")interact.Read();
+               if(interact.gameObject.tag == "test") Debug.Log("TEST");
 
             }
 
@@ -66,7 +67,7 @@ public class InteractionController : MonoBehaviour
                 if (interact != null)
                 {
 
-                    Debug.Log(interact.GetInteractionMessage());
+                   // Debug.Log(interact.GetInteractionMessage());
 
                     isInteractable = true;
 

@@ -1,0 +1,14 @@
+-Campaign A-
+#1 - Player wakes up.
+#2 - Player sees crack in the door with alarm.
+#3 - Screen says DANGER and Alert sounds are playing with lights.
+#4 - Player disables Alarm
+#5 - Screen changes to Restore power.
+#6 - Player needs to restore power in power room.
+#7 - Power room contains puzzle to restore power.
+#8 - Player completes puzzle to restore power
+#9 - Power restored and lights are turned on.
+#10 - Player returns to the alarm room, Screen says Area clear.
+#11 - Player needs to escape area, there are 2 paths B & C.
+#12 - Path B is the main elevator.
+#13 - Path C is the escape hatch to the lower part of the space craft.

@@ -14,12 +14,12 @@ public class Switch : MonoBehaviour , InteractionHandler
 
     public void Activate()
     {
-        Debug.Log("Hey im a cube too");
+        Debug.Log("Hey im activing a cube too");
 
     }
     public void Read()
     {
-        Debug.Log("Hey im a cube too");
+        Debug.Log("Hey im reading a cube too");
 
     }
 }
