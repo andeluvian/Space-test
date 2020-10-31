@@ -9,6 +9,7 @@ TagManager:
   - Button
   - Clue
   - UI
+  - Puzzle
   layers:
   - Default
   - TransparentFX
@@ -40,7 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Puzzle
   - Minigame
   m_SortingLayers:
   - name: Default

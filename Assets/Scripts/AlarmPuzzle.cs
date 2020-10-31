@@ -12,6 +12,19 @@ public class AlarmPuzzle : MonoBehaviour
     [SerializeField] private GameObject[] EnableObjects;
 
 
+public void startPuzzle(){
+    complete();
+}
+
+
+public void complete(){
+TurnOn();
+TurnOff();
+DisableGameObject();
+EnableGameObject();
+gameObject.GetComponent<Puzzle>().setSolved();
+}
+
 public void TurnOn(){
 
 foreach(GameObject o in TurnOnObjects){
