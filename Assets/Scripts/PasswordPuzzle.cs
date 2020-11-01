@@ -5,7 +5,7 @@ using UnityEngine;
 public class PasswordPuzzle : MonoBehaviour
 {
 
-
+    [SerializeField] private GameObject Puzzle;
     [SerializeField] private GameObject[] TurnOnObjects;
     [SerializeField] private GameObject[] TurnOffObjects;
     [SerializeField] private GameObject[] DisableObjects;
@@ -13,14 +13,14 @@ public class PasswordPuzzle : MonoBehaviour
     
 public void startPuzzle(){
 
-foreach(GameObject o in TurnOnObjects){
-o.SetActive(true);
-}
+
+Puzzle.SetActive(true);
+
 
 }
 
 public void complete(){
-
+TurnOn();
 TurnOff();
 DisableGameObject();
 EnableGameObject();
