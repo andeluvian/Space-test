@@ -7,10 +7,12 @@ public class PasswordPuzzle : MonoBehaviour
 
     [SerializeField] private GameObject Puzzle;
     [SerializeField] private GameObject[] TurnOnObjects;
+    [SerializeField] private GameObject[] TurnOnObjectsDelay;
     [SerializeField] private GameObject[] TurnOffObjects;
     [SerializeField] private GameObject[] DisableObjects;
     [SerializeField] private GameObject[] EnableObjects;
-    
+    public float timer = 0.0f;
+    public float wait = 5.0f;
 public void startPuzzle(){
 
 
@@ -21,11 +23,14 @@ Puzzle.SetActive(true);
 
 public void complete(){
 TurnOn();
+TurnOnDelay();
 TurnOff();
 DisableGameObject();
 EnableGameObject();
 gameObject.GetComponent<Puzzle>().setSolved();
 }
+
+
 
 public void TurnOn(){
 
@@ -34,6 +39,14 @@ o.SetActive(true);
 }
 
 }
+public void TurnOnDelay(){
+new WaitForSeconds(6);
+foreach(GameObject o in TurnOnObjectsDelay){
+o.SetActive(true);
+}
+
+}
+
 public void TurnOff(){
 
 foreach(GameObject o in TurnOffObjects){
