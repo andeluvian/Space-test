@@ -23,7 +23,7 @@ case 1:
 gameObject.GetComponent<PasswordPuzzle>().startPuzzle();
 break;
 case 2:
-gameObject.GetComponent<AlarmPuzzle>().startPuzzle();
+gameObject.GetComponent<KeyCodePuzzle>().startPuzzle();
 break;
 case 3:
 gameObject.GetComponent<AlarmPuzzle>().startPuzzle();

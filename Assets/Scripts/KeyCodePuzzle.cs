@@ -17,11 +17,20 @@ public class KeyCodePuzzle : MonoBehaviour
     private bool keypadScreen;
     private float btnClicked = 0;
     private float numOfGuesses;
+    [SerializeField] private GameObject Puzzle;
     [SerializeField] private GameObject[] TurnOnObjects;
+    
     
     [SerializeField] private GameObject[] TurnOffObjects;
 
 
+public void startPuzzle(){
+
+
+Puzzle.SetActive(true);
+
+
+}
 
 
 // Start is called before the first frame update
@@ -45,6 +54,8 @@ public class KeyCodePuzzle : MonoBehaviour
                 Debug.Log("Correct Password!");
                 input = ""; //Clear Password
                 btnClicked = 0;
+                gameObject.GetComponent<Puzzle>().setSolved();
+                gameObject.GetComponent<AlarmPuzzle>().complete();
 
             }
             else
