@@ -16,11 +16,17 @@ This game was created as a university project, originally made for VR but later 
 For a more indept on how to use the current project look in the Wiki
 
 ## Table of content
-1. [Branches](#branches)
-2. [Commits](#commits)
-  1. [Messages](#messages)
-3. [Merging](#merging)
-4. [Misc.](#misc)
+1. [Home](https://github.com/andeluvian/Space-test/wiki)
+2. [Interaction system](https://github.com/andeluvian/Space-test/wiki/Interaction-system)
+   1. [Interactable objects](https://github.com/andeluvian/Space-test/wiki/Interactable-objects)
+3. [Puzzle System](https://github.com/andeluvian/Space-test/wiki/Puzzle-system)
+   1. [Keypad puzzle](https://github.com/andeluvian/Space-test/wiki/Keypad-puzzle)
+   1. [Alarm Puzzle](https://github.com/andeluvian/Space-test/wiki/Alarm-Puzzle)
+   1. [Password Puzzle](https://github.com/andeluvian/Space-test/wiki/Password-puzzle)
+4. [Objective and Narration system](https://github.com/andeluvian/Space-test/wiki/Objectives-and-Narration)
+   1. [Objectives display update](https://github.com/andeluvian/Space-test/wiki/Displays-and-Cameras)
+5. World systems
+   1. [Doors & Switches](https://github.com/andeluvian/Space-test/wiki/Door-system)
 
 ### Repositories & Branches
 
